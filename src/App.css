@@ -1,17 +1,16 @@
 .App {
     text-align: center;
   }
-  
-.center-stepper{
+ .center-stepper{
   display: flex;
   justify-content: center;
 }
 .task1{
   background-color: orange;
-   
-  margin: auto;
+    margin: auto;
     width: 70%;
 }
+
 @media(min-width: 1353px){
   .App-header {
     display: flex;
@@ -22,12 +21,9 @@
     color: white;
   }
   
-  .task1{
+.task1{
     background-color: orange;
     margin: auto;
     width: 70%;
-    
-  }
-  
-  
-}
+ }
+ }
