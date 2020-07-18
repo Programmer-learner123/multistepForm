@@ -8,6 +8,7 @@ import Addressdetails from './Components/Addressdetails';
 import Success from './Components/Success'; 
 import { Stepper, StepLabel, Step} from '@material-ui/core';
 import { multiStepContext } from './StepContext';
+import { useMediaQuery} from '@material-ui/core';
 function App() {
 
   const { currentStep, finalData} = useContext(multiStepContext);
@@ -26,9 +27,9 @@ function App() {
     }
     
   return (
-    <div className="App">
+    <div className="App user">
     
-        <h1> TASK 1</h1>
+        
         <h3 style={{color: "blue", fontFamily: "Arial"}}> ReactJs Multistep Form Application</h3>
         
         <div className="center-stepper App-header task1" >
@@ -49,7 +50,7 @@ function App() {
         </div>
       
       <br/><br/>
-    <h1> TASK 3</h1>
+    <h1> Used axios library to fetch data from jsonplaceholder.</h1>
       <DataFetching />
     
     </div>
